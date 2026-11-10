@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial;
+    background: #f3e5f5;
+    padding: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #7b1fa2;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #7b1fa2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.aluno {
+    background: #f3e5f5;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 7px;
+}
