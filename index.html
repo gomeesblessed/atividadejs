@@ -5,10 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Média Escolar</title>
+    <scrip src="JS/script.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
- <h1></h1>
+ <div class="container">
+
+    <h2>Calculadora de Média</h2>
+
+    <input type="text" id="nome" placeholder="Nome do aluno">
+
+    <input type="text" id="nota1" placeholder="Primeira nota">
+
+    <input type="text" id="nota2" placeholder="Segunda nota">
+
+    <input type="text" id="nota3" placeholder="Terceira nota">
+
+    <button onclick="calcularMedia()">Calcular</button>
+
+    <div id="resultado"></div>
+
+</div>
 </body>
 
 </html>
