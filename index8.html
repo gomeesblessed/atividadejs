@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="CSS/style8.css">
+    <script src="JS/script8.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Tarefas</h1>
+
+        <input id="titulo" placeholder="Título da tarefa">
+        <textarea id="descricao" placeholder="Descrição"></textarea>
+
+        <select id="prioridade">
+            <option value="Alta">Alta</option>
+            <option value="Média">Média</option>
+            <option value="Baixa">Baixa</option>
+        </select>
+
+        <input type="date" id="prazo">
+
+        <button onclick="adicionar()">Adicionar tarefa</button>
+
+        <h3>Indicadores</h3>
+        <p id="indicadores"></p>
+
+        <select id="filtro" onchange="listar()">
+            <option value="todas">Todas</option>
+            <option value="pendente">Pendentes</option>
+            <option value="concluida">Concluídas</option>
+            <option value="atrasada">Atrasadas</option>
+        </select>
+
+        <select id="ordem" onchange="listar()">
+            <option value="prazo">Ordenar por prazo</option>
+            <option value="prioridade">Ordenar por prioridade</option>
+        </select>
+
+        <div id="lista"></div>
+    </div>
+
+    
+</body>
+</html>

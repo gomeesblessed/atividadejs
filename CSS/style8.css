@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial;
+    background: #ede7f6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #512da8;
+    text-align: center;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px;
+    background: #512da8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.tarefa {
+    padding: 15px;
+    margin-top: 12px;
+    background: #ede7f6;
+    border-radius: 8px;
+}
+
+.atrasada {
+    border: 2px solid red;
+}
+
+.concluida {
+    background: #c8e6c9;
+}

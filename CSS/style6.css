@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial;
+    background: #fff3e0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    color: #e65100;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 12px;
+    background: #ef6c00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.produto {
+    padding: 12px;
+    background: #fff3e0;
+    margin: 8px 0;
+    border-radius: 7px;
+}
+
+.baixo {
+    border: 2px solid red;
+    background: #ffebee;
+}

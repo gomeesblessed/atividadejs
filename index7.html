@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequência Escolar</title>
+    <link rel="stylesheet" href="CSS/style6.css">
+     <script src="JS/script6.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Monitoramento Escolar</h1>
+
+        <h3>Cadastrar estudante</h3>
+        <input id="nome" placeholder="Nome">
+        <input id="matricula" placeholder="Matrícula">
+        <input id="turma" placeholder="Turma">
+        <input id="curso" placeholder="Curso">
+
+        <button onclick="cadastrar()">Cadastrar</button>
+
+        <hr>
+
+        <h3>Registrar frequência</h3>
+
+        <select id="aluno"></select>
+        <input type="date" id="data">
+
+        <select id="situacao">
+            <option value="presenca">Presença</option>
+            <option value="justificada">Falta justificada</option>
+            <option value="injustificada">Falta não justificada</option>
+        </select>
+
+        <button onclick="registrar()">Registrar</button>
+
+        <h3>Relatório de frequência</h3>
+        <div id="relatorio"></div>
+    </div>
+
+   
+</body>
+</html>
