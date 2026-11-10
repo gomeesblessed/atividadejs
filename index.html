@@ -1,32 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Média Escolar</title>
-    <scrip src="JS/script.js"></script>
+    <script src="JS/script.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
- <div class="container">
 
-    <h2>Calculadora de Média</h2>
+    <div class="container">
 
-    <input type="text" id="nome" placeholder="Nome do aluno">
+        <h1>Calculadora de Média</h1>
 
-    <input type="text" id="nota1" placeholder="Primeira nota">
+        <label>Nome do aluno:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
 
-    <input type="text" id="nota2" placeholder="Segunda nota">
+        <label>Primeira nota:</label>
+        <input type="number" id="nota1" min="0" max="10" step="any">
 
-    <input type="text" id="nota3" placeholder="Terceira nota">
+        <label>Segunda nota:</label>
+        <input type="number" id="nota2" min="0" max="10" step="any">
 
-    <button onclick="calcularMedia()">Calcular</button>
+        <label>Terceira nota:</label>
+        <input type="number" id="nota3" min="0" max="10" step="any">
 
-    <div id="resultado"></div>
+        <button type="button" onclick="calcularMedia()">
+            Calcular Média
+        </button>
 
-</div>
+        <div id="resultado"></div>
+
+    </div>
+
+
 </body>
-
 </html>

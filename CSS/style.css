@@ -1,36 +1,59 @@
- body {
-            font-family: Arial;
-            background-color: #f0f2f5;
-            text-align: center;
-            padding: 40px;
+body {
+            font-family: Arial, sans-serif;
+            background-color: #aac0e2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
         }
 
         .container {
-            background: white;
-            padding: 25px;
-            max-width: 350px;
-            margin: auto;
-            border-radius: 10px;
+            background-color: rgb(228, 77, 77);
+            padding: 30px;
+            border-radius: 12px;
+            width: 320px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
         }
 
         input {
-            width: 90%;
+            width: 100%;
             padding: 10px;
-            margin: 8px;
+            margin-top: 5px;
             box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
 
         button {
-            background: blue;
-            color: white;
+            width: 100%;
             padding: 12px;
+            margin-top: 20px;
+            background-color: #020202;
+            color: white;
             border: none;
+            border-radius: 5px;
             cursor: pointer;
-            width: 95%;
-            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
         }
 
         #resultado {
             margin-top: 20px;
-            font-weight: bold;
+            text-align: center;
+            line-height: 1.8;
         }
