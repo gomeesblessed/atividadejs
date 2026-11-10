@@ -1,0 +1,106 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f1f4f9;
+    color: #333;
+}
+
+header {
+    background: #1a237e;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    background: #283593;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+button {
+    background: #3949ab;
+    color: white;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background: #1a237e;
+}
+
+main {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 12px #0001;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 7px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.aluno, .indicador {
+    background: #e8eaf6;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+}
+
+.alerta {
+    color: red;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    nav button {
+        flex: 1;
+    }
+}
+
+@media print {
+    nav, button, input, select {
+        display: none !important;
+    }
+
+    body {
+        background: white;
+    }
+
+    section {
+        box-shadow: none;
+    }
+}
